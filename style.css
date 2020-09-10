@@ -1,0 +1,267 @@
+@font-face {
+    font-family: anaheim;
+    src: url(Anaheim.ttf);
+    font-family: latoLight;
+    src: url(Lato-Light.ttf);
+}
+
+/*HOME PAGE*/
+
+@keyframes nameFloatIn {
+    from{transform:translate(0,50px);opacity:0;}
+    to{transform: translate(0,-0px);opacity: 1;}
+}
+.body1 {
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+.name {
+    color: #3f3f3f;
+    font-size: 290px;
+    position: relative;
+    right: -270px;
+    padding: 0px;
+    font-family: anaheim;
+    animation-name: nameFloatIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+img {
+    width: 600px;
+    object-fit: contain;
+}
+
+.navi {
+    background-color: #D8BCB2;
+    overflow: hidden;
+    height: 40px;
+/*    position: sticky;*/
+    width: 100%;
+}
+
+.navi a{
+    color: #3f3f3f;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    left: 1180px;
+    top: 3px;
+    bottom: 3px;
+}
+
+.navi a:hover{
+    color: white;
+}
+.home {
+    position: relative;
+}
+.flower {
+    display: block;
+    width: 640px;
+    height: 590px;
+    position: relative;
+    top: -800px;
+    left: -70px;
+    z-index: -1; 
+}
+
+/*ABOUT PAGE:*/
+.body2{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#aboutContent {
+    float: right;
+    width: 66%;
+    position: relative;
+    top: 200px;
+    padding-right: 40px;
+    z-index: 1;
+
+}
+#intro {
+/*    font-family: 'Lato', sans-serif; */
+    font-family: latoLight;
+    font-size: 70px;
+    color: #3f3f3f;
+    padding: 0px;
+}
+
+#info {
+/*    font-family: 'Lato', sans-serif;*/
+    font-family: latoLight;
+    font-size: 30px;
+    color: #3f3f3f;
+    padding: 0p;
+}
+
+#flower2 {
+    position: relative;
+    float: left;
+    padding-left: 40px;
+    width: 33%;
+    height: 650px;
+    top: -250px;
+    right: 50px;
+    z-index: -1;
+}
+
+/*WORK PAGE*/
+
+.body3{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.column {
+    width: 50%; 
+}
+#humBird {
+    padding: 5px;
+    width: 100%;
+    height: 470px;
+}
+#green {
+    padding: 10px;
+    width: 100%;
+    height: 550px;
+}
+#parrot {
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+}
+#penguin {
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+}
+#prism {
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+}
+.fade a:hover {
+    opacity: 0.2;
+    transition: all 0.2s ease-in;
+}
+.fade a{
+    opacity: 1;
+    transition: all 0.2s ease-in;
+}
+
+/*PENGUIN LOGO*/
+
+.work {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.fonts{
+    font-family: latoLight;
+    font-size: 25px;
+    padding: 125px;
+}
+#penguinProcess {
+    width: 100%;
+    height: 1500px;
+    padding: 30px;
+}
+
+/*HUMMINGBIRD LOGO*/
+#hummingbirdProcess{
+    width: 100%;
+    height: 1500px;
+}
+#hummingbirdDrawing {
+    width: 100%;
+    height: 1500px;
+}
+
+/*PRISM LOGO*/
+
+#prismWork {
+    padding: 10px;
+}
+#prismRow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+#prismColumn {
+    width: 50%;
+}
+#prismPaper {
+    width: 100%;
+    height: 800px;
+}
+#prismEnvelope{
+    width: 100%;
+    height: 500px;
+}
+#prismCards {
+    width: 100%;
+    height: 300px;
+}
+#prismBoard {
+    width: 100%;
+    height: 1050px;
+}
+
+/*PARROT*/
+#parrotProcess {
+    width: 50%;
+    height: 1000px;
+    float: right;
+}
+#parrotDrawing {
+    width: 50%;
+    height: 1000px;
+    float: left;
+}
+
+/*GREEN TEAM SHIRT*/
+
+#greenRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: baseline;
+}
+#greenColumn {
+    width: 50%;
+}
+#greenLogo {
+    width: 100%;
+}
+#quote {
+    width: 85.9%;
+}
+#greenShirtFront {
+    padding: 10px;
+    width: 100%;
+}
+#greenShirtBack {
+    padding: 10px;
+    width: 100%;
+    height: 960px;
+}
+
+/*FOOTER*/
+
+.workFooter {
+    text-align: center;
+    font-family: latoLight;
+    color: #3f3f3f;
+    width: 100%;
+    position: absolute;
+}
+
