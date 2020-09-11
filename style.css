@@ -1,8 +1,8 @@
 @font-face {
     font-family: anaheim;
-    src: url(Anaheim.ttf);
+    src: url(webElements/Anaheim.ttf);
     font-family: latoLight;
-    src: url(Lato-Light.ttf);
+    src: url(webElements/Lato-Light.ttf);
 }
 
 /*HOME PAGE*/
